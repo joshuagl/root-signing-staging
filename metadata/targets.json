@@ -1,15 +1,27 @@
 {
  "signatures": [
   {
-   "keyid": "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93",
-   "sig": "3045022100e5ed5f6b34d7ed0a2d260ea2029ab6366771e09768c47c680cad6c7ed38e4ecd02204a9713f0f5b3180a79e2b88e135dd5eb98534f25f176d541db7be7e0848c2279"
+   "keyid": "aa61e09f6af7662ac686cf0c6364079f63d3e7a86836684eeced93eace3acd81",
+   "sig": "3045022100dd42894f3adbe36abd77afa88e12a80afcd38ea5a0260846925be7624b6bc71502203d8432cdd4c59bd252aa669fc3c24ca7962542d8abbedca5285c598960194c89"
+  },
+  {
+   "keyid": "61f9609d2655b346fcebccd66b509d5828168d5e447110e261f0bcc8553624bc",
+   "sig": ""
+  },
+  {
+   "keyid": "9471fbda95411d10109e467ad526082d15f14a38de54ea2ada9687ab39d8e237",
+   "sig": "30450220459bc0645d06737a689d8f9b52e9fe4d127c9567b5c4a0d08ffb38fc245620ac022100a2875988c9d01a859d7dd944f12c3b23155e52d5bc866af2ad4ae9381e92589c"
+  },
+  {
+   "keyid": "0374a9e18a20a2103736cb4277e2fdd7f8453642c7d9eaf4ad8aee9cf2d47bb5",
+   "sig": ""
   }
  ],
  "signed": {
   "_type": "targets",
   "delegations": {
    "keys": {
-    "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93": {
+    "aa61e09f6af7662ac686cf0c6364079f63d3e7a86836684eeced93eace3acd81": {
      "keytype": "ecdsa",
      "keyval": {
       "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEohqIdE+yTl4OxpX8ZxNUPrg3SL9H\nBDnhZuceKkxy2oMhUOxhWweZeG3bfM1T4ZLnJimC6CAYVU5+F5jZCoftRw==\n-----END PUBLIC KEY-----\n"
@@ -21,7 +33,7 @@
    "roles": [
     {
      "keyids": [
-      "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93"
+      "aa61e09f6af7662ac686cf0c6364079f63d3e7a86836684eeced93eace3acd81"
      ],
      "name": "registry.npmjs.org",
      "paths": [
@@ -32,7 +44,7 @@
     }
    ]
   },
-  "expires": "2034-01-06T09:02:56Z",
+  "expires": "2034-06-29T11:52:41Z",
   "spec_version": "1.0",
   "targets": {
    "ctfe.pub": {
@@ -127,7 +139,7 @@
     "length": 7256
    }
   },
-  "version": 5,
+  "version": 9,
   "x-tuf-on-ci-expiry-period": 3650,
   "x-tuf-on-ci-signing-period": 365
  }
